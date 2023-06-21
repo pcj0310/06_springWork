@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.mainVisual {
+    position: relative;
+}
+
+.mainVisual .imgBn {
+    width: 100%;
+    background: #eee;
+}
+
+.mainVisual .imgBn .imgArea {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainVisual .reservation {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    z-index: 5;
+}
+
+.mainVisual .reservation .reTxt {
+    color: #999;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.mainVisual .reservation input {
+    font-size: 20px;
+    color: #333;
+    background: none;
+}
+
+.mainVisual .reservation input::-webkit-input-placeholder {color: #333;}
+.mainVisual .reservation input:-ms-input-placeholder {color: #333;}
+.mainVisual .reservation input::-moz-placeholder {color: #333;}
+
+.mainVisual .reservation .area {
+    width: 180px;
+    border-right: 1px solid #ddd;
+    margin-right: 30px;
+}
+
+.mainVisual .reservation .date {
+    width: 320px;
+    border-right: 1px solid #ddd;
+}
+
+.mainVisual .reservation .num {
+    width: 150px;
+    text-align: center;
+}
+
+.mainVisual .reservation .num input {
+    text-align: center !important;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.mainVisual .reservation .searchBtn {
+    background-color: #c6a582;
+    color: #fff;
+    height: 120px;
+    width: 200px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.mainVisual .reservation .searchBtn:hover {
+    background-color: #444;
+}
+
+.bestWrap {
+    background-color: #fafafa;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.bestWrap .desList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.bestWrap .desList li a {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bestWrap .desList li a .imgArea {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.bestWrap .desList li a .imgArea .img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.4s;
+}
+
+.bestWrap .desList li:hover a .imgArea .img {
+    transform: scale(1.15);
+    opacity: 0.6;
+}
+
+.bestWrap .desList li a p.tit {
+    text-align: center;
+    font-size: 17px;
+}
+
+.themeWrap {
+    padding: 100px 0;
+}
+
+.themeWrap .themeTab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.bestReviewWrap {
+    padding: 100px 0;
+    background: #f6f2ee;
+}
+
+.bestReviewWrap .accList {
+    margin-top: 30px;
+}
